@@ -21,4 +21,4 @@ const Login = ({ setIsAuth }) => {
     )
 }
 
-export default Login
+export default Login;
