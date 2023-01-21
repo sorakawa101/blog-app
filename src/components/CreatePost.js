@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import "./CreatePost.css";
-import { addDoc, collection, Timestamp } from 'firebase/firestore';
+import { addDoc, collection } from 'firebase/firestore';
 import { auth, db } from '../firebase';
 import { useNavigate } from 'react-router-dom';
 
